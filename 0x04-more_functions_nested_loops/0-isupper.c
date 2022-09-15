@@ -2,7 +2,7 @@
  * File: 0-isupper.c
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _isupper - Checks for uppercase characters.
