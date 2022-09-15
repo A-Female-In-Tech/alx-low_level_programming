@@ -1,6 +1,5 @@
-/*
+/**
  * File: 7-print_diagonal.c
- * Auth: Brennan D Baraban
  */
 
 #include "main.h"
@@ -11,25 +10,22 @@
  */
 void print_diagonal(int n)
 {
-	int i = 1;
+	int len, space;
 
 	if (n > 0)
 	{
-		_putchar(92);
-
-		while (i < n)
+		for (len = 0; len < n; len++)
 		{
-			int count = 0;
-			
-			_putchar('\n');
-			while (count < i)
-			{
+			for (space = 0; space < len; space++)
 				_putchar(' ');
-				count++;
-			}
-			_putchar(92);
-			i++;
+				_putchar('\\');
+					
+				if (len == n - 1)
+					continue;
+
+				_putchar('\n');
 		}
 	}
+
 	_putchar('\n');
 }
