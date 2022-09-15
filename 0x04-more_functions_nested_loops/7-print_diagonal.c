@@ -16,7 +16,7 @@ void print_diagonal(int n)
 	{
 		int count;
 
-		for (count =0; count < n; count++)
+		for (count = 0; count < n; count++)
 		{
 			int laps = count;
 
