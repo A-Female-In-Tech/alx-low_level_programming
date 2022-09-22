@@ -3,7 +3,7 @@
 /**
  * print_number - function to print int using _putchar
  *
- * @num: int to print
+ *@num: int to print
  */
 void print_number(int num)
 {
