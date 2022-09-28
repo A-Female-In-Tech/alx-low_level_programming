@@ -21,10 +21,10 @@ int check_sqrt(int x, int y)
  * @x: number to get square root of
  *
  * Return: natural square root of number, -1 otherwise
- */ 
+ */
 int _sqrt_recursion(int x)
 {
 	if (x < 0)
 		return (-1);
-	return (check_sqrt(x, 0));
+ 	return (check_sqrt(x, 0));
 }
