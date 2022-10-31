@@ -1,21 +1,5 @@
-
-sidneyriffic
-/
-holbertonschool-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-holbertonschool-low_level_programming/0x14-file_io/100-elf_header.c
-@sidneyriffic
-sidneyriffic Change back to mimicing actual readelf -h
- 1 contributor
-227 lines (218 sloc)  4.36 KB
 #define _GNU_SOURCE
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
